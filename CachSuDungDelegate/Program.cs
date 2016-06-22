@@ -15,8 +15,8 @@ namespace CachSuDungDelegate
     */
     /*
     Chúng ta sử dụng delegate này để gọi hai phương thức: 
-        phương thức đầu tiên in chuỗi tới Console,
-        và phương thức thứ hai in nó tới một File.
+    phương thức đầu tiên in chuỗi tới Console,
+    và phương thức thứ hai in nó tới một File.
     */
     class PrintString
     {
