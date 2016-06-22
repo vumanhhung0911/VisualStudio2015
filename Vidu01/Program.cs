@@ -15,7 +15,7 @@ namespace Vidu01
 
     public class Pair
     {
-        // Khai bao uy quyen
+        // Khai báo ủy quyền
         public delegate comparison WhichIsFirst(object obj1, object obj2);
         // Biến lưu giữ 2 đối tượng
         private object[] thePair = new object[2];
@@ -55,7 +55,7 @@ namespace Vidu01
         }
     }
 
-    // Tạo hai lớp đôi tượng đơn giản
+    // Tạo hai lớp đối tượng đơn giản
     public class Student
     {
         private string name;
@@ -127,5 +127,44 @@ namespace Vidu01
 
             Console.Read();
         }
+        /*
+        Trong đoạn chương trình thử nghiệm trên chúng ta tạo ra hai đối tượng Student và hai đối
+        tượng Cat sau đó đưa chúng vào hai đối tượng chứa Pair theo từng loại. Bộ khởi dựng của lớp
+        Student lấy một chuỗi đại diện cho tên của sinh viên và bộ khởi dựng của lớp Cat thì lấy một
+        số int đại diện cho trọng lượng của mèo.
+
+            Student Thao = new Student(“Thao”);
+            Student Ba = new Student(“Ba”);
+            Cat Mun = new Cat(“5”);
+            Cat Ngao = new Cat(“2”);
+            Pair studentPair = new Pair(Thao, Ba);
+            Pair catPair = new Pair(Mun, Ngao);
+            Console.WriteLine(“Sinh vien \t\t\t: {0}”, studentPair.ToString());
+            Console.WriteLine(“Meo \t\t\t: {0}”, catPair.ToString());
+
+        Sau đó chương trình in nội dung chứa bên trong của hai đối tượng chứa Pair, và chúng ta có
+        thể thấy thứ tự như sau:
+
+            Sinh vien : Thao, Ba
+            Meo : 5, 2
+
+        Thứ tự xuất hiện của nó chính là thứ tự đưa vào. Tiếp theo chúng ta khởi tạo hai đối tượng ủy
+        quyền:
+
+            Pair.WhichIsFirst theStudentDelegate = new Pair.WhichIsFirst( Student.WhichStudentComesFirst);
+            Pair.WhichIsFirst theCatDelegate = new Pair.WhichIsFirst( Student.WhichCatComesFirst);
+
+        Ủy quyền đầu tiên theStudentDelegate được tạo ra bằng cách truyền vào một phương thức
+        tĩnh tương ứng của lớp Student.
+        Đối tượng ủy quyền thứ hai, theCatDelegate được một phương thức tĩnh của lớp Cat.
+        Bây giờ ta đã có các đối tượng ủy quyền, chúng ta truyền ủy quyền đầu tiên cho phương thức
+        Sort của đối tượng Pair, và sau đó là phương thức ReverseSort. Kết quả được xuất ra màn
+        hình:
+
+            Sau khi sap xep studentPair : Ba, Thao
+            Sau khi sap xep nguoc studentPair : Thao, Ba
+            Sau khi sap xep catPair : 2, 5
+            Sau khi sap xep nguoc catPair : 5, 2
+        */
     }
 }
