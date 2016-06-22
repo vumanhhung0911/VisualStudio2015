@@ -13,9 +13,6 @@ namespace Chuong11_UyQuyenSuKien
             //asdfasdf
 
 
-
-
-
         }
     }
 }
