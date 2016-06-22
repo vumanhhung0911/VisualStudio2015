@@ -34,6 +34,11 @@ namespace Chuong11_UyQuyenSuKien
             nc2(5);
             Console.WriteLine("Value of Num: {0}", getNum());
 
+            TestDelegate.AddNum(15);
+            Console.WriteLine("Value of Num: {0}", TestDelegate.getNum());
+            TestDelegate.MultNum(2);
+            Console.WriteLine("Value of Num: {0}", TestDelegate.getNum());
+
             Console.Read();
         }
     }
