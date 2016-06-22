@@ -55,6 +55,7 @@ namespace MulticastDelegate
             nc(5);
             Console.WriteLine("Value of num: {0}", getNum());
             Console.Read();
+
         }
     }
 }
