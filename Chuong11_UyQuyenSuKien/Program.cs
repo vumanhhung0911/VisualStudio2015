@@ -35,8 +35,6 @@ namespace Chuong11_UyQuyenSuKien
             Console.WriteLine("Value of Num: {0}", getNum());
 
             Console.Read();
-
-
         }
     }
 }
