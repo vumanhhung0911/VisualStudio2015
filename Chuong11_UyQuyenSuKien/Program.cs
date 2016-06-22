@@ -10,6 +10,7 @@ namespace Chuong11_UyQuyenSuKien
     {
         static void Main(string[] args)
         {
+            //asdfasdf
         }
     }
 }
