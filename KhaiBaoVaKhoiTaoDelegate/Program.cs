@@ -6,6 +6,14 @@ using System.Threading.Tasks;
 
 namespace Chuong11_UyQuyenSuKien
 {
+    /*
+    Ủy quyền được dùng để xác định những loại phương thức có thể được dùng để xử lý các sự kiện
+    và để thực hiện callback trong chương trình ứng dụng. Chúng cũng có thể được sử dụng để xác
+    định các phương thức tĩnh và các instance của phương thức mà chúng ta không biết cho đến khi
+    chương trình thực hiện /// thực sự là éo hiểu @@
+    */
+
+    
     delegate int NumberChanger(int n);
     class TestDelegate
     {
@@ -34,7 +42,7 @@ namespace Chuong11_UyQuyenSuKien
             nc2(5);
             Console.WriteLine("Value of Num: {0}", getNum());
 
-            TestDelegate.AddNum(15);
+            TestDelegate.AddNum(15); // khác biệt gì ở đây mà tại sao lại phải dùng delegate trong khi kết quả như nhau?
             Console.WriteLine("Value of Num: {0}", TestDelegate.getNum());
             TestDelegate.MultNum(2);
             Console.WriteLine("Value of Num: {0}", TestDelegate.getNum());
