@@ -113,8 +113,8 @@ namespace BookTestClient
             // method AddBookToTotal on the object totaller:
             bookDB.ProcessPaperbackBooks(totaller.AddBookToTotal);
 
-            System.Console.WriteLine("Average Paperback Book Price: ${0:#.##}",
-                    totaller.AveragePrice());
+            System.Console.WriteLine("Average Paperback Book Price: ${0:#.##}", 
+                totaller.AveragePrice());
 
             Console.ReadLine();
         }
