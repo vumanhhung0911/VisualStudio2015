@@ -1,6 +1,0 @@
-E:\GitHub\VisualStudio2015\Generic\Generic\bin\Debug\Generic.exe.config
-E:\GitHub\VisualStudio2015\Generic\Generic\bin\Debug\Generic.exe
-E:\GitHub\VisualStudio2015\Generic\Generic\bin\Debug\Generic.pdb
-E:\GitHub\VisualStudio2015\Generic\Generic\obj\Debug\tutorialspoint.csprojResolveAssemblyReference.cache
-E:\GitHub\VisualStudio2015\Generic\Generic\obj\Debug\Generic.exe
-E:\GitHub\VisualStudio2015\Generic\Generic\obj\Debug\Generic.pdb
