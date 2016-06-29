@@ -13,8 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vidu01", "Vidu01\Vidu01.csp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FABACF02-253A-4630-833F-E4195B6BE900}"
 	ProjectSection(SolutionItems) = preProject
-		TextFile1.txt = TextFile1.txt
+		Delegates.txt = Delegates.txt
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSDN_UsingDelegates", "MSDN_UsingDelegates\MSDN_UsingDelegates.csproj", "{664A2C1B-4D6C-445F-9630-39F3FE46CBEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSDN_HandlingABookStore", "MSDN_HandlingABookStore\MSDN_HandlingABookStore.csproj", "{A6ABF8A1-1C8E-4079-A98E-673B961DC947}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +42,14 @@ Global
 		{02D92E3D-1E7C-45C1-8D89-4DDB720FDAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02D92E3D-1E7C-45C1-8D89-4DDB720FDAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02D92E3D-1E7C-45C1-8D89-4DDB720FDAFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{664A2C1B-4D6C-445F-9630-39F3FE46CBEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{664A2C1B-4D6C-445F-9630-39F3FE46CBEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{664A2C1B-4D6C-445F-9630-39F3FE46CBEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{664A2C1B-4D6C-445F-9630-39F3FE46CBEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6ABF8A1-1C8E-4079-A98E-673B961DC947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6ABF8A1-1C8E-4079-A98E-673B961DC947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6ABF8A1-1C8E-4079-A98E-673B961DC947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6ABF8A1-1C8E-4079-A98E-673B961DC947}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
