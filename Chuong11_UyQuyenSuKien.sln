@@ -22,6 +22,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSDN_HandlingABookStore", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nutshell_InstanceVersusStaticMethodTargets", "Nutshell_InstanceVersusStaticMethodTargets\Nutshell_InstanceVersusStaticMethodTargets.csproj", "{9C44DB3C-F2D7-4207-9675-B6419C20A5C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nutshell_GenericDelegateTypes", "Nutshell_GenericDelegateTypes\Nutshell_GenericDelegateTypes.csproj", "{084C67D2-1F49-4412-8202-B974211DC613}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nutshell_TheFuncAndActionDelegates", "Nutshell_TheFuncAndActionDelegates\Nutshell_TheFuncAndActionDelegates.csproj", "{6958549F-CA84-4A7A-8B18-AFB6B9F89C45}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +60,14 @@ Global
 		{9C44DB3C-F2D7-4207-9675-B6419C20A5C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C44DB3C-F2D7-4207-9675-B6419C20A5C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C44DB3C-F2D7-4207-9675-B6419C20A5C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{084C67D2-1F49-4412-8202-B974211DC613}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{084C67D2-1F49-4412-8202-B974211DC613}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{084C67D2-1F49-4412-8202-B974211DC613}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{084C67D2-1F49-4412-8202-B974211DC613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6958549F-CA84-4A7A-8B18-AFB6B9F89C45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6958549F-CA84-4A7A-8B18-AFB6B9F89C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6958549F-CA84-4A7A-8B18-AFB6B9F89C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6958549F-CA84-4A7A-8B18-AFB6B9F89C45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
