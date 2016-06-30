@@ -13,7 +13,6 @@ namespace Chuong11_UyQuyenSuKien
     chương trình thực hiện /// thực sự là éo hiểu @@
     */
 
-    
     delegate int NumberChanger(int n);
     class TestDelegate
     {
